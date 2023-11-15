@@ -20,7 +20,7 @@ public class Zadacha2 {
                 System.out.println(x * x);
                 break;
             case "char":
-                System.out.println("x".charAt(0));
+                System.out.println("char".charAt(0));
                 break;
             case "String":
                 System.out.println("Hello " + x);
