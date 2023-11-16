@@ -12,20 +12,20 @@ public class Zadacha1 {
                 if (sum < 100) {
                     System.out.println(sum - (sum / 100 * 5));
                 }
-                else if(sum > 100 && sum < 200)
+                else if(sum > 100 && sum < 199)
                 {
                     System.out.println(sum - (sum / 100 * 7));
                 }
-                    else if (sum > 200 && sum < 300 && age > 18) {
+                    else if (sum > 200 && sum < 299 && age > 18) {
                     System.out.println(sum - (sum / 100 * (12 + 4)));
                 }
-                else if (sum > 200 && sum < 300 && age < 18) {
+                else if (sum > 200 && sum < 299 && age < 18) {
                     System.out.println(sum - (sum / 100 * (12 - 3)));
                 }
-                    else if(sum > 200 && sum < 300){
+                    else if(sum > 200 && sum < 299){
                         System.out.println(sum - (sum / 100 * 12));
                     }
-                else if(sum > 300 && sum < 400) {
+                else if(sum > 300 && sum < 399) {
                     System.out.println(sum - (sum / 100 * 15));
                 }
                 else if(sum >= 400) {
